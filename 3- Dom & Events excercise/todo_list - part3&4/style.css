@@ -4,7 +4,7 @@ body {
   font-family: "Helvetica", arial, sans-serif;
 }
 div {
-  max-width: 50%;
+  max-width: 75%;
   margin: 0 auto;
 }
 h1 {
@@ -17,8 +17,9 @@ ul {
   padding: 0;
 }
 li {
-  font-family: cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
+  font-size: 1.5rem;
   border: 1px solid rgb(211, 178, 178);
   padding-left: 10px;
   overflow: auto;
@@ -32,10 +33,11 @@ span {
 input {
   display: block;
   border-radius: 7px;
-  font-family: cursive;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: none;
   max-width: 100%;
-  padding: 10px 10px;
+  padding: 10px 50px;
   margin: 0 auto;
 }
 .checked {
