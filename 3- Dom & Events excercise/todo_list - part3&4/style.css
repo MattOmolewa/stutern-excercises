@@ -1,0 +1,44 @@
+body {
+  background: #352f5b;
+  color: rgb(233, 232, 232);
+  font-family: "Helvetica", arial, sans-serif;
+}
+div {
+  max-width: 50%;
+  margin: 0 auto;
+}
+h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-family: cursive;
+  font-weight: 500;
+  border: 1px solid rgb(211, 178, 178);
+  padding-left: 10px;
+  overflow: auto;
+  background: #564692;
+}
+span {
+  float: right;
+  margin-left: auto;
+  border: 1.5px solid rgb(218, 38, 38);
+}
+input {
+  display: block;
+  border-radius: 7px;
+  font-family: cursive;
+  border: none;
+  max-width: 100%;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: tomato;
+}
